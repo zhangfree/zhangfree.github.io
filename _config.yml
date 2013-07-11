@@ -1,6 +1,6 @@
 permalink: /:categories/:year/:month/:day/:title 
 
-markdown: rdiscount
+#markdown: rdiscount
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
