@@ -1,0 +1,50 @@
+---
+layout: page
+title: 关于
+header: about me
+group: navigation
+index: 4
+---
+{% include pengx/setup %}
+<div>
+  <h2>
+    About
+  </h2>
+  <p class="about">
+    一个@广州的Brogrammer，涉足flash,Haxe,python,erlang,c/c++。
+  </p>
+  <h2>
+    Profile
+  </h2>
+  <table class="table table-striped" id="about-me">
+    <tbody>
+      <tr>
+        <td class="span3"><i class="icon-github-sign"> </i><span>GitHub</span></td>
+        <td><a href="{{ site.author.github }}">zhangfree</a></td>
+      </tr>
+      <tr>
+        <td class="span3"><i class="icon-weibo"></i> <span>新浪微博</span></td>
+        <td><a href="{{ site.author.weibo }}">zhangfree</a> </td>
+      </tr>
+      <tr>
+        <td class="span3"><i class="icon-envelope"></i> <span>Em@il</span></td>
+        <td><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> </td>
+      </tr>
+      <tr>
+        <td class="span3"><i class="icon-linkedin-sign"></i> <span>LinkedIn</span></td>
+        <td><a href="{{ site.author.linkedin }}">zhang ji</a> </td>
+      </tr>
+      <tr>
+        <td class="span3"><i class="icon-comments-alt"></i> <span>腾讯QQ</span></td>
+        <td> {{ site.author.qq }} </td>
+      </tr>
+    </tbody>
+  </table>
+  </br>
+  <h2>
+    Message Board
+  </h2>
+</div>
+<hr />
+<div id="comment-hook"></div>
+{% include pengx/comments %}
