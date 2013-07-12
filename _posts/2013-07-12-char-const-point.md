@@ -3,7 +3,7 @@ layout: post
 keywords: 技术
 description: 指针常量与常量指针
 title: const char\*与char const\*的区别
-categories: [C/C++]
+categories: [C语言]
 tags: [指针,C语言,C++]
 group: archive
 icon: coffee
