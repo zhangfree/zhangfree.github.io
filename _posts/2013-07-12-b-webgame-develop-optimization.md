@@ -3,7 +3,7 @@ layout: post
 keywords: 技术
 description: webgame客户端开发优化总结
 title: webgame客户端开发优化技巧总结
-categories: [C语言]
+categories: [flash]
 tags: [flash,优化技巧]
 group: archive
 icon: coffee
