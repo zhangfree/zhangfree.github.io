@@ -16,5 +16,5 @@ icon: coffee
 ####char const\*
 指针常量，就是这个指针指向的内容是char类型，且这个地址是不变的。但这个指针指向的内容是可以改变的。
 
-####cosnt char\* const
+####const char\* const
 指向常量的指针常量，就是这个指针是指向常量且地址不可改变。
