@@ -15,7 +15,7 @@ icon: coffee
 
 使用[ScaleBitmap](http://www.bytearray.org/?p=118)这个类或者参考写一个，专门处理swf里面的位图资源。这里面的有个技巧需要说明，因为设置九宫格需要传入一个Rectangle，我们可以在fla里面的创建一个MC然后设置九宫格，拉好九宫格的线，然后在动作面板键入
 
-``` as3
+```
 trace(this.scale9Grid.x+" "+this.scale9Grid.y+" "+this.scale9Grid.width+" "+this.scale9Grid.height);
 ```
 
