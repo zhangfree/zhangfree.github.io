@@ -22,7 +22,7 @@ icon: coffee
 6.	如果连接超时，或者STATUS事件的level错误，表明连接是无效的，将SharedObject的index字段+1
 7.	重复第2步，直到第3步成功。
 
-```
+{% highlight java %}
 private var m_lcIndex:uint;
 private var m_intervalID:uint;
 private var m_localConnName:String;
@@ -79,4 +79,4 @@ public function clientRequired():void
 {
 	trace("又登陆了一个客户端了。");
 }
-```
+{% endhighlight %}
